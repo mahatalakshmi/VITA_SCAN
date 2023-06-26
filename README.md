@@ -12,3 +12,4 @@ Algorithms used for building these models and accuracies are:
 > Logistic Regression for Heart Health Prediction [ Accuarcy: 92%]
 
 Link for the website: https://mellifluous-hamster-da427b.netlify.app/
+Overviwe of the project: https://drive.google.com/file/d/1dzahJkshf2mK2N7tPwVRxJbL2EbdCNki/view?usp=sharing
