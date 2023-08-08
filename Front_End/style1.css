@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/91/01/0005bokeh.component.xl.ts=1686854829969.jpg/content/adobe-cms/us/en/topics/artificial-intelligence/_jcr_content/root/leadspace");
+  background-size: cover;
+  box-sizing: border-box;
+  /* height: 190vh; */
+}
+
+.images img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  clip-path: circle();
+  margin-top: 0px;
+  margin-left: 100px;
+  box-shadow: 20;
+  box-shadow: 0 0 35px var(--clr);
+  border: 1px solid rgb(39, 52, 76);
+  transition: 0.8s;
+  outline: 2%;
+}
+.images:hover .brain img {
+  transform: scaleX(1.1);
+}
+.images:hover .ribs img {
+  transform: scaleX(1.1);
+}
+.images:hover .heart img {
+  transform: scaleX(1.1);
+}
+.images:hover .lungs img {
+  transform: scaleX(1.1);
+}
+.images:hover .pancreas img {
+  transform: scaleX(1.1);
+  background: var(--clr);
+}
+
+.images .brain img {
+  margin-top: 50px;
+  margin-right: 1000px;
+  margin-left: 60px;
+  margin-right: -100px;
+  margin-bottom: -90px;
+}
+.images .ribs img {
+  height: 220px;
+  margin-top: -600px;
+  margin-left: 500px;
+  margin-bottom: -90px;
+}
+.images .heart img {
+  margin-top: 100px;
+  margin-left: 290px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.images .lungs img {
+  margin-bottom: -12px;
+}
+
+.images .pancreas img {
+  margin-top: -400px;
+  margin-left: 520px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+
+a:hover {
+  transition: 1s ease-in-out;
+}
+.click button {
+  display: flex;
+  justify-content: left;
+  position: relative;
+  margin-top: 595px;
+  margin-right: -10000px;
+  margin-left: -1000px;
+  padding: 5px 2px 5px 2px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-shadow: 10;
+  transform-box: fill-box;
+  text-shadow: 0 0 10px rgb(57, 79, 103), 0 0 20px rgb(57, 79, 103),
+    0 0 40px rgb(57, 79, 103), 0 0 80px rgb(57, 79, 103),
+    0 0 120px rgb(57, 79, 103);
+}
+.click:hover button {
+  background: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
+}

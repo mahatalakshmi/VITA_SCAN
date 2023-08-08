@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tapestry", sans-serif;
+}
+
+body {
+  background-image: url("https://freedesignfile.com/upload/2017/01/Stethoscope-with-black-background-Stock-Photo.jpg");
+  background-size: cover;
+  background-blend-mode: hue;
+  background-position: 100% 50%;
+}
+
+h3 {
+  font-size: 50px;
+  color: darkcyan;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.content {
+  background: rgb(57, 79, 103);
+  border-radius: 20px;
+  padding: 16px 29px;
+  width: 500px;
+  height: 370px;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 760px;
+}
+
+p {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 35px;
+  line-height: 1.6;
+  font-size: 19px;
+}
+
+.click button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  margin-right: 0px;
+  margin-left: 160px;
+  padding: 5px 2px 5px 2px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-shadow: 10;
+  transform-box: fill-box;
+  text-shadow: 0 0 10px rgb(57, 79, 103), 0 0 20px rgb(57, 79, 103),
+    0 0 40px rgb(57, 79, 103), 0 0 80px rgb(57, 79, 103),
+    0 0 120px rgb(57, 79, 103);
+}
+.click:hover button {
+  background: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
+}
