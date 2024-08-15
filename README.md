@@ -144,17 +144,11 @@ Include visualizations such as confusion matrices, ROC curves, and example predi
 
 Feel free to fork this repository, submit issues, or make pull requests. Contributions are welcome!
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 
-For any questions or feedback, please reach out at [your email address].
+For any questions or feedback, please reach out at mahata2657@gmail.com.
 
----
-
-This `README.md` is a template and should be customized further to fit the specific details and structure of your project.
 
 Link for the website: https://mellifluous-hamster-da427b.netlify.app/
 Overviwe of the project: https://drive.google.com/file/d/1dzahJkshf2mK2N7tPwVRxJbL2EbdCNki/view?usp=sharing
